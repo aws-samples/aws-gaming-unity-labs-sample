@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 462868892
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a327fa4fd148605a0ab5e58b9ba53558
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 62b51ec8ef4573052b28e30bf5d34f1d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e5f53ffa4662f490f98ee54393230af6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 713e112f338267b42bf9a725ae40e277, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Art/Bundles/Planes/ColorPlanePack/Prefabs/YellowBiplanePlayer.prefab
+- Assets/Game/Art/Bundles/Planes/ColorPlanePack/Sprites/YellowBiplaneIcon.png
+- Assets/Game/Art/Bundles/Planes/ColorPlanePack/PlaneList.asset
+- Assets/Game/Art/Bundles/Planes/ColorPlanePack/Sprites/RedBiplaneIcon.png
+- Assets/Game/Art/Bundles/Planes/ColorPlanePack/Prefabs/RedBiplanePlayer.prefab
+Dependencies: []

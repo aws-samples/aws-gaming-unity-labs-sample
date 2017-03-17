@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aws
+  correctForClockSkew="true">
+  
+  <logging
+    logTo="UnityLogger"
+    logResponses="OnError"
+    logMetrics="true"
+    logMetricsFormat="JSON" 
+    logResponsesSizeLimit ="4096"/>
+
+  <s3 useSignatureVersion4="true"/>
+ 
+ 	<mobileAnalytics 
+    sessionTimeout = "5"
+		maxDBSize = "5242880"
+		dbWarningThreshold = "0.9"
+		maxRequestSize = "102400"
+		allowUseDataNetwork = "false"/>
+</aws>

@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 2637647421
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1367cc9d6574d074094610c8e2c35a96
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 62b51ec8ef4573052b28e30bf5d34f1d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e5f53ffa4662f490f98ee54393230af6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 713e112f338267b42bf9a725ae40e277, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Art/Bundles/Planes/BasePlanePack/Icons/BlueBiplaneIcon.png
+- Assets/Game/Art/Bundles/Planes/BasePlanePack/Prefabs/BlueBiplanePlayer.prefab
+- Assets/Game/Art/Bundles/Planes/BasePlanePack/PlaneList.asset
+Dependencies: []
