@@ -105,13 +105,14 @@ public class PlaneManager : MonoBehaviour
 
     IEnumerator RetrieveAssetBundles()
     {
-        //retrieve the asset list
+        //verify the bucket and asset list have been specified
         if(string.IsNullOrEmpty(m_S3BucketUrl) || string.IsNullOrEmpty(m_assetlist))
         {
             Debug.LogWarning("S3 data not specified, new planes will not be downloaded from the cloud.");
             yield break;
         }
 
+        //retrieve the asset list
         string url = m_S3BucketUrl + m_assetlist;
         UnityWebRequest wrq = UnityWebRequest.Get(url);
         yield return wrq.Send();
@@ -122,7 +123,7 @@ public class PlaneManager : MonoBehaviour
             yield break;
         }
         
-        //download the bundle
+        //download the bundles
         AssetList list = JsonUtility.FromJson<AssetList>(wrq.downloadHandler.text);
         for(int i=0; i<list.planePacks.Count; ++i)
         {
